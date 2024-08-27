@@ -1,0 +1,176 @@
+/* Resetowanie domyślnych marginesów i paddingów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stylizacja ciała strony */
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white; 
+    font-family: Arial, sans-serif; /* Dodanie fontu */
+}
+
+/* Stylizacja nawigacji */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    border-bottom: 2px solid #f39c12; /* Dodanie obramowania */
+}
+
+#logo img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid #f39c12;
+}
+
+ul.navigation-items {
+    display: flex;
+    list-style: none;
+}
+
+li.navigation-item {
+    margin: 0 30px;
+    cursor: pointer;
+}
+
+li.navigation-item:hover {
+    color: #f39c12;
+}
+
+/* Stylizacja głównej sekcji */
+main {
+    padding: 20px;
+}
+
+/* Stylizacja nagłówków */
+h1 {
+    text-align: center; /* Wyśrodkowanie nagłówków */
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+/* Stylizacja sekcji "About Me" */
+.about-me {
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: justify; /* Justowanie tekstu w akapicie */
+    text-indent: 20px; /* Wcięcie na początku akapitu */
+}
+
+/* Stylizacja sekcji "Projects" */
+.projects {
+    margin-top: 20px;
+    text-align: center; /* Wyśrodkowanie nagłówka sekcji */
+}
+
+.project-items {
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie projektów */
+    flex-wrap: wrap; /* Pozwolenie na zawijanie wierszy */
+    gap: 15px; /* Odstępy między projektami */
+}
+
+.project-item {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    background-color: #222;
+}
+
+/* Stylizacja sekcji "Skills" */
+.skills {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tech-logo {
+    font-size: 50px; /* Dopasuj wielkość ikon */
+    margin: 10px; /* Przestrzeń między ikonami */
+    color: #ffffff; /* Kolor ikon */
+}
+
+/* Stylizacja stopki */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px; /* Zmniejszenie paddingu, aby stopka była mniejsza */
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 10px; /* Zmniejszenie marginesu dolnego */
+}
+
+.footer-section {
+    margin: 5px; /* Zmniejszenie marginesu */
+    flex: 1; /* Zapewnia, że sekcje są równomiernie rozmieszczone */
+}
+
+.footer-section h3 {
+    margin-bottom: 8px; /* Zmniejszenie marginesu dolnego */
+    font-size: 16px; /* Zmniejszenie rozmiaru czcionki nagłówka w stopce */
+    text-align: center; /* Wyśrodkowanie nagłówków w stopce */
+}
+
+.footer-section p {
+    margin: 3px 0; /* Zmniejszenie marginesu */
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 3px 0; /* Zmniejszenie marginesu */
+}
+
+.footer-section ul li a {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 10px; /* Zmniejszenie marginesu górnego */
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 12px; /* Zmniejszenie rozmiaru czcionki */
+}
+
+.footer-section a {
+    color: #ffffff;
+    margin: 0 8px; /* Zmniejszenie marginesu */
+    font-size: 20px; /* Zmniejszenie rozmiaru ikon */
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #f39c12;
+}
+
+
